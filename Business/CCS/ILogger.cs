@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Entities.Abstract
+namespace Business.CCS
 {
-    // IEntity 
-    public interface IEntity
+    public interface ILogger
     {
+
+        void Log();
     }
 }
